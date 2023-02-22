@@ -26,6 +26,7 @@ class Formula extends React.Component{
         render(){
             return(
                 <>
+                <h1>SIMPLE INTREST=(p*n*r)/100</h1>
                 <h1>Principle : {this.state.p},No.of days : {this.state.n},Rate of Intrest : {this.state.r}</h1>
                 <h1>Answer:{(this.state.p*this.state.n*this.state.r)/100}</h1>
                 <button onClick={this.principle}>Principle</button>
